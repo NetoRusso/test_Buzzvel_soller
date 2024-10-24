@@ -28,6 +28,14 @@ export const metadata: Metadata = {
       "https://test-buzzvel-soller.vercel.app/sollerOG.png",
     ],
   },
+  icons: {
+    icon: "/favicon.ico",
+  },
+  viewport: "width=device-width, initial-scale=1",
+  robots: {
+    index: true,
+    follow: true,
+  }
 
 };
 
