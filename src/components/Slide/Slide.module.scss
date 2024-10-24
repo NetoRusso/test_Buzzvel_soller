@@ -1,0 +1,131 @@
+@import 'variable';
+
+.slide {
+  width: 100%;
+  height: auto;
+  min-height: 300px;
+  overflow: hidden;
+  padding: 48px;
+  background-color: transparent;
+  margin-top: 16px;
+
+  &__carousel {
+    width: 100%;
+    height: 100%;
+    cursor: grab;
+    transition: transform 200ms ease-in-out;
+
+    &:active {
+      cursor: grabbing;
+    }
+
+    &__card {
+      width: clamp(17.5rem, 17.25rem + 1.25vw, 18.75rem);
+      // width: 300px;
+      height: 378px;
+      padding: 32px;
+      margin: 0 auto;
+      background-color: $color-ice;
+      border-radius: 10px;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      transition: all 200ms ease-in-out;
+
+      gap: 16px;
+
+      &__space {
+        width: 100%;
+        height: 64px;
+      }
+
+      &__text {
+        font-size: clamp(1rem, 0.9697rem + 0.1294vw, 1.125rem);
+        line-height: clamp(1.4rem, 1.3029rem + 0.4142vw, 1.8rem);
+        font-weight: 400;
+        color: $color-strong-blue;
+      }
+
+      &__user {
+        width: 100%;
+        height: auto;
+        display: flex;
+        align-items: center;
+        gap: 16px;
+
+        img {
+          width: 64px;
+          height: 64px;
+          border-radius: 64px;
+          object-fit: cover;
+          object-position: center;
+        }
+
+        &__card {
+          width: 100%;
+          height: auto;
+          display: flex;
+          flex-direction: column;
+          align-items: flex-start;
+          gap: 8px;
+
+          &__name {
+            font-size: clamp(1rem, 0.9697rem + 0.1294vw, 1.125rem);
+            color: $color-strong-blue;
+            font-weight: 400;
+          }
+        }
+      }
+    }
+  }
+
+  &__btns {
+    width: auto;
+    height: auto;
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    margin: 48px 0 0 48px;
+
+    &__prev {
+      background-color: transparent;
+      background-image: url('/assets/icons/arrow02.svg');
+      background-size: 24px;
+      background-repeat: no-repeat;
+      background-position: center;
+      width: 48px;
+      height: 48px;
+      border: 2px solid $color-yellow;
+      border-radius: 48px;
+      transform: rotate(180deg);
+
+      &:hover {
+        scale: 0.95;
+        cursor: pointer;
+        background-image: url('/assets/icons/arrow02Hov.svg');
+        border-color: $color-brown;
+        transition: all 200ms ease-in-out;
+      }
+    }
+
+    &__next {
+      background-color: transparent;
+      background-image: url('/assets/icons/arrow02.svg');
+      background-size: 24px;
+      background-repeat: no-repeat;
+      background-position: center;
+      width: 48px;
+      height: 48px;
+      border: 2px solid $color-yellow;
+      border-radius: 48px;
+
+      &:hover {
+        scale: 0.95;
+        cursor: pointer;
+        background-image: url('/assets/icons/arrow02Hov.svg');
+        border-color: $color-brown;
+        transition: all 200ms ease-in-out;
+      }
+    }
+  }
+}

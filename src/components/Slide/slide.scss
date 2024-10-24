@@ -1,0 +1,12 @@
+.swiper-wrapper {
+  height: 450px;
+  padding: 48px;
+  @media (max-width: 945px) {
+    padding: 48px 0;
+  }
+}
+
+.swiper-slide-active { // Use a classe do Swiper
+  height: 426px;
+  margin-top: -24px;
+}
