@@ -1,0 +1,41 @@
+@import 'variable';
+
+.button {
+  background-color: transparent;
+        border: 2px solid $color-yellow;
+        border-radius: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        padding: 12px 20px;
+
+        p {
+          font-size: clamp(1.25rem, 1.2rem + 0.25vw, 1.5rem);
+          font-weight: 700;
+          color: $color-yellow;
+          padding: 0 12px;
+        }
+
+        &__icon {
+          width: 14px;
+          height: 13.31px;
+          background-image: url('/assets/icons/arrow02.svg');
+          background-position: center;
+          background-size: cover;
+          background-repeat: no-repeat;
+        }
+
+        &:hover {
+          background-color: $color-yellow;
+          box-shadow: 0px 4px 4px 0 rgba(0, 0, 0, 0.25);
+
+          p {
+            color: $color-brown;
+          }
+
+          .button__icon {
+            background-image: url('/assets/icons/arrow02Hov.svg');
+          }
+        }
+}
