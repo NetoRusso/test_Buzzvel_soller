@@ -1,0 +1,101 @@
+@import 'variable';
+
+.section01 {
+  width: 100%;
+  height: clamp(37.75rem, 27.4648rem + 43.8835vw, 80.125rem);
+  padding: 80px 0px 0px 0px;
+  opacity: 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+
+
+  &__text {
+    width: clamp(18.75rem, -0.45rem + 96vw, 56.25rem);
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 48px;
+    gap: 24px;
+
+    &__call {
+      width: 100%;
+      font-size: clamp(1rem, 0.9393rem + 0.2589vw, 1.25rem);
+      line-height: clamp(1.1rem, 1.0333rem + 0.2848vw, 1.375rem);
+      font-weight: 500;
+      text-align: center;
+      color: $color-strong-yellow;
+    }
+
+    &__title {
+      width: 100%;
+      font-size: clamp(2rem, 1.6359rem + 1.5534vw, 3.5rem);
+      line-height: clamp(2.2rem, 1.7995rem + 1.7087vw, 3.85rem);
+      font-weight: 800;
+      text-align: center;
+      color: $color-strong-blue;
+    }
+
+    &__description {
+      width: 90%;
+      font-size: clamp(1rem, 0.9393rem + 0.2589vw, 1.25rem);
+      line-height: clamp(1.1rem, 1.0333rem + 0.2848vw, 1.375rem);
+      font-weight: 400;
+      text-align: center;
+      color: $color-strong-blue;
+    }
+  }
+
+  &__screen {
+    width: clamp(22.375rem, 4.7476rem + 75.2104vw, 95rem);
+    height: clamp(53.375rem, 62.5983rem + -39.3528vw, 15.375rem);
+
+    &__image {
+      width: 100%;
+      height: auto;
+    }
+  }
+
+  &__circles {
+    width: clamp(28.125rem, 2.0934rem + 111.068vw, 135.375rem);
+    height: clamp(17.75rem, 9.9223rem + 33.3981vw, 50rem);
+    gap: 0px;
+    position: absolute;
+    left: -11%;
+    top: 250px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    z-index: -1;
+
+    &__orange {
+      width: clamp(12.5rem, 5.826rem + 28.4757vw, 44.375rem);
+      height: clamp(12.5rem, 5.826rem + 28.4757vw, 44.375rem);
+      flex-shrink: 0;
+      border-radius: 711px;
+      background: #F59E0B;
+      flex-shrink: 0;
+    }
+
+    &__space {
+      height: 100%;
+      display: flex;
+      align-items: flex-end;
+
+      &__purple {
+        width: clamp(9.375rem, 3.5385rem + 24.9023vw, 37.25rem);
+        height: clamp(9.375rem, 3.5385rem + 24.9023vw, 37.25rem);
+        flex-shrink: 0;
+        flex-shrink: 0;
+        border-radius: 597px;
+        background: #7E22CE;
+        bottom: 0;
+
+      }
+    }
+  }
+
+}
