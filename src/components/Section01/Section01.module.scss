@@ -2,9 +2,9 @@
 
 .section01 {
   width: 100%;
-  height: clamp(37.75rem, 27.4648rem + 43.8835vw, 80.125rem);
-  padding: 80px 0px 0px 0px;
-  opacity: 0px;
+  // height: clamp(37.75rem, 27.4648rem + 43.8835vw, 80.125rem);
+  height: auto;
+  padding: 80px 0px 80px 0px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -51,11 +51,13 @@
 
   &__screen {
     width: clamp(22.375rem, 4.7476rem + 75.2104vw, 95rem);
-    height: clamp(53.375rem, 62.5983rem + -39.3528vw, 15.375rem);
+    // height: clamp(53.375rem, 62.5983rem + -39.3528vw, 15.375rem);
+    height: auto;
 
     &__image {
       width: 100%;
       height: auto;
+      object-fit: cover;
     }
   }
 

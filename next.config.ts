@@ -7,7 +7,9 @@ const nextConfig: NextConfig = {
   sassOptions: {
     includePaths: [path.join(process.cwd(), './src/style')],
   },
-
+  images: {
+    domains: [],
+  },
 };
 
 export default nextConfig;
