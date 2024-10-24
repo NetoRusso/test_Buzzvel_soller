@@ -53,7 +53,7 @@ const Slide = ({ data }: IProps) => {
             <div className={Style.slide__carousel__card__user}>
               <Image src={data.photo} alt={data.name} width={64} height={64} />
               <div className={Style.slide__carousel__card__user__card}>
-                <p className={Style.slide__carousel__card__user__card__name}>{data.name}</p>
+                <span className={Style.slide__carousel__card__user__card__name}>{data.name}</span>
                 <p className={Style.slide__carousel__card__user__card__value}>{data.value}</p>
               </div>
             </div>
@@ -62,9 +62,9 @@ const Slide = ({ data }: IProps) => {
       </Swiper>
       <div className={Style.slide__btns}>
 
-        <button id='prevEl' className={Style.slide__btns__prev} />
+        <button id='prevEl' className={Style.slide__btns__prev} aria-label='Previous slide' />
 
-        <button id='nextEl' className={Style.slide__btns__next} />
+        <button id='nextEl' className={Style.slide__btns__next} aria-label='Next slide' />
       </div>
     </div>
   );

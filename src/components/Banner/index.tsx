@@ -29,9 +29,9 @@ const Banner = () => {
           <div className={Style.banner__left__coments__card}>
             <Image src={userPic} alt="user" className={Style.banner__left__coments__card__img} />
             <div className={Style.banner__left__coments__card__user}>
-              <h5 className={Style.banner__left__coments__card__user__name}>
+              <h4 className={Style.banner__left__coments__card__user__name}>
                 Rwanda Melflor
-              </h5>
+              </h4>
               <p className={Style.banner__left__coments__card__user__site}>
                 zerowaste.com
               </p>
