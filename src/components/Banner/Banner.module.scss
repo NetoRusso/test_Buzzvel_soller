@@ -1,0 +1,140 @@
+@import 'variable';
+
+.banner {
+
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 16px;
+
+  &__left {
+    width: clamp(23.4375rem, 15.1699rem + 35.2751vw, 57.5rem);
+    height: 614px;
+    display: flex;
+    flex-direction: column;
+    gap: clamp(4rem, 3.0291rem + 4.1424vw, 8rem);
+    align-items: flex-start;
+    padding-left: 40px;
+
+    &__text {
+      width: clamp(23.4375rem, 20.0243rem + 14.5631vw, 37.5rem);
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 24px;
+
+      &__title {
+        width: 100%;
+        font-size: clamp(2.5rem, 2.0146rem + 2.0712vw, 4.5rem);
+        font-weight: 800;
+        line-height: clamp(2.75rem, 2.216rem + 2.2783vw, 4.95rem);
+        color: $color-strong-blue;
+      }
+
+      &__description {
+        width: 100%;
+        font-size: clamp(1.125rem, 1.034rem + 0.3883vw, 1.5rem);
+        font-weight: 400;
+        line-height: clamp(1.8rem, 1.6544rem + 0.6214vw, 2.4rem);
+      }
+    }
+
+    &__coments {
+      width: clamp(23.4375rem, 20.0243rem + 14.5631vw, 37.5rem);
+      height: 138px;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 16px;
+
+      &__text {
+        width: 100%;
+        font-size: clamp(1rem, 0.9697rem + 0.1294vw, 1.125rem);
+        font-weight: 400;
+        line-height: 28.8px;
+        color: $color-strong-blue;
+      }
+
+      &__card {
+        display: flex;
+        align-items: center;
+        gap: 16px;
+
+        &__user {
+          display: flex;
+          flex-direction: column;
+          align-items: flex-start;
+          gap: 4px;
+
+          &__name {
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 28.8px;
+            color: $color-strong-blue;
+          }
+
+          &__site {
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 22.4px;
+            color: $color-gray;
+          }
+        }
+      }
+
+    }
+  }
+
+  &__right {
+    width: clamp(23.4375rem, 15.1699rem + 35.2751vw, 57.5rem);
+    height: clamp(20rem, 13.75rem + 26.6667vw, 45.75rem);
+
+    &__img {
+      width: clamp(19.1875rem, 13.6353rem + 23.6893vw, 42.0625rem);
+      height: auto;
+      position: absolute;
+      top: 0;
+      right: 0;
+      z-index: -1;
+    }
+  }
+
+  @media (max-width: 945px) {
+    flex-direction: column-reverse;
+    align-items: center;
+
+    &__left {
+      width: 100%;
+      padding: 0;
+      align-items: center;
+      margin-top: clamp(17.5rem, 12.5658rem + 21.0526vw, 25rem);
+
+      &__text {
+        width: 92%;
+        align-items: center;
+
+        &__title {
+          width: 100%;
+          text-align: center;
+
+        }
+
+        &__description {
+          width: 100%;
+          text-align: center;
+
+        }
+      }
+
+      &__coments {
+
+        width: 92%;
+      }
+
+    }
+
+    &__right {
+      width: 100%;
+    }
+  }
+}
