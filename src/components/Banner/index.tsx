@@ -9,9 +9,8 @@ import imgBanner from '/public/assets/images/banner_image.png';
 
 
 const Banner = () => {
-
   return (
-    <div className={Style.banner}>
+    <div className={Style.banner} >
       <div className={Style.banner__left}>
         <div className={Style.banner__left__text}>
           <h1 className={Style.banner__left__text__title}>

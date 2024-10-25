@@ -26,7 +26,9 @@ const Section04 = () => {
         <Button02 />
       </div>
         <Slide data={coments} />
+
     </section>
+
   );
 };
 

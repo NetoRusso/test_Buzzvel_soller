@@ -1,5 +1,8 @@
 'use client';
 
+import ScrollAnimation from 'react-animate-on-scroll';
+import 'animate.css/animate.min.css';
+
 import Image from 'next/image';
 import Style from './Section03.module.scss';
 import mobile from '/public/assets/images/mobile2.svg';
@@ -20,6 +23,7 @@ const Section03 = () => {
             Pretium lectus ultrices sit tempor, sit ullamcorper volutpat et et. Auctor turpis semper id sit ornare maecenas lectus sed.
           </p>
         </div>
+        <ScrollAnimation animateIn='animate__slideInLeft' duration={1} delay={300} animateOnce={true}>
         <div className={Style.section03__texts__box2}>
           <div className={Style.section03__texts__box2__box1}>
             <h4 className={Style.section03__texts__box2__box1__title}>
@@ -38,6 +42,8 @@ const Section03 = () => {
             </p>
           </div>
         </div>
+        </ScrollAnimation>
+        <ScrollAnimation animateIn='animate__slideInRight' duration={1} delay={300} animateOnce={true}>
         <div className={Style.section03__texts__box3}>
           <div className={Style.section03__texts__box3__box1}>
             <h4 className={Style.section03__texts__box3__box1__title}>
@@ -56,6 +62,7 @@ const Section03 = () => {
             </p>
           </div>
         </div>
+        </ScrollAnimation>
       </div>
       <div className={Style.section03__design}>
 

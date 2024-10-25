@@ -1,5 +1,8 @@
 'use client';
 
+import ScrollAnimation from 'react-animate-on-scroll';
+import 'animate.css/animate.min.css';
+
 import Image from 'next/image';
 import Button02 from '../Button02';
 import Style from './Section05.module.scss';
@@ -25,9 +28,16 @@ const Section05 = () => {
           </p>
         </div>
       </div>
-      <div className={Style.section05__img}>
-        <Image src={macbook} alt='macbook' />
-      </div>
+      <ScrollAnimation
+        animateIn='animate__zoomInUp'
+        duration={1}
+        delay={200}
+        animateOnce={true}
+      >
+        <div className={Style.section05__img}>
+          <Image src={macbook} alt='macbook' />
+        </div>
+      </ScrollAnimation>
       <div className={Style.section05__detail} />
 
     </section>

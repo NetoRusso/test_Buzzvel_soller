@@ -1,3 +1,8 @@
+'use client'
+
+import ScrollAnimation from 'react-animate-on-scroll';
+import 'animate.css/animate.min.css';
+
 import Banner from "@/components/Banner";
 import Footer from "@/components/Footer";
 import Menu from "@/components/Menu";
@@ -8,12 +13,20 @@ import Section04 from "@/components/Section04";
 import Section05 from "@/components/Section05";
 
 export default function Home() {
+
   return (
     <>
-      <header>
-        <Menu />
-        <Banner />
-      </header>
+      <ScrollAnimation
+        animateIn='animate__fadeIn'
+        duration={1}
+        delay={200}
+        animateOnce={true}
+      >
+        <header>
+          <Menu />
+          <Banner />
+        </header>
+      </ScrollAnimation>
       <main>
         <Section01 />
         <Section02 />
