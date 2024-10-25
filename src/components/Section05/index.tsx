@@ -33,8 +33,9 @@ const Section05 = () => {
         duration={1}
         delay={200}
         animateOnce={true}
+        className={Style.section05__animation}
       >
-        <div className={Style.section05__img}>
+        <div className={Style.section05__animation__img}>
           <Image src={macbook} alt='macbook' />
         </div>
       </ScrollAnimation>
