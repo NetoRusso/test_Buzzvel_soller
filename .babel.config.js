@@ -1,7 +1,8 @@
 module.exports = {
   presets: [
-    'next/babel',
-    '@babel/preset-env',
-    '@babel/preset-typescript',
-  ],
+    "next/babel", // Para Next.js
+    "@babel/preset-env",
+    "@babel/preset-react",
+    "@babel/preset-typescript"
+  ]
 };
