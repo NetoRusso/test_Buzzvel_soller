@@ -21,8 +21,8 @@ const config: Config = {
   setupFilesAfterEnv: ['<rootDir>/jest.setup.js'], // Adicione esta linha
   testEnvironment: 'jest-environment-jsdom',
   transform: {
-    '^.+\\.tsx?$': 'babel-jest',
-    '^.+\\.jsx?$': 'babel-jest',
+    '^.+\\.tsx?$': 'ts-jest', // Usa ts-jest para arquivos TypeScript
+    '^.+\\.jsx?$': 'babel-jest', // Usa babel-jest para arquivos JavaScript
     '^.+\\.mjs$': 'babel-jest',
   },
   transformIgnorePatterns: ['/node_modules/(?!swiper)'],
