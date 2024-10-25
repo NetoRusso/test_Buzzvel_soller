@@ -20,7 +20,7 @@ export const metadata: Metadata = {
     locale: "en_US",
     siteName: "Soller - Your power of the sun ",
   },
-  twitter: { 
+  twitter: {
     card: "summary_large_image",
     title: "Soller - Your power of the sun ",
     description: "High-efficiency solar panels for homes and businesses. Clean, renewable energy for a more sustainable future.",
@@ -31,7 +31,6 @@ export const metadata: Metadata = {
   icons: {
     icon: "/favicon.ico",
   },
-  viewport: "width=device-width, initial-scale=1",
   robots: {
     index: true,
     follow: true,
