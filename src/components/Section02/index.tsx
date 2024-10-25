@@ -41,17 +41,17 @@ const Section02 = () => {
           >
           <div className={Style.section02__texts__box2}>
             <div className={Style.section02__texts__box2__box1}>
-              <h4 className={Style.section02__texts__box2__box1__title}>
+              <h3 className={Style.section02__texts__box2__box1__title}>
                 Et mauris
-              </h4>
+              </h3>
               <p className={Style.section02__texts__box2__box1__text}>
                 Posuere quis sed mauris non curabitur pretium elementum eget. Feugiat sed maecenas eu accumsan tristique.
               </p>
             </div>
             <div className={Style.section02__texts__box2__box2}>
-              <h4 className={Style.section02__texts__box2__box2__title}>
+              <h3 className={Style.section02__texts__box2__box2__title}>
                 Eget sit
-              </h4>
+              </h3>
               <p className={Style.section02__texts__box2__box2__text}>
                 Sit bibendum donec dolor fames neque vulputate non sit aliquam. Consequat turpis natoque leo, massa.
               </p>
@@ -66,17 +66,17 @@ const Section02 = () => {
           >
           <div className={Style.section02__texts__box3}>
             <div className={Style.section02__texts__box3__box1}>
-              <h4 className={Style.section02__texts__box3__box1__title}>
+              <h3 className={Style.section02__texts__box3__box1__title}>
                 Imperdiet pellentesque
-              </h4>
+              </h3>
               <p className={Style.section02__texts__box3__box1__text}>
                 Platea arcu dapibus non magna cursus lectus id sollicitudin. Enim viverra parturient tristique nulla.
               </p>
             </div>
             <div className={Style.section02__texts__box3__box2}>
-              <h4 className={Style.section02__texts__box3__box2__title}>
+              <h3 className={Style.section02__texts__box3__box2__title}>
                 Non libero
-              </h4>
+              </h3>
               <p className={Style.section02__texts__box3__box2__text}>
                 Congue mauris sem vel, urna viverra. Urna, nibh leo suscipit purus ut sed eros, consectetur viverra.
               </p>

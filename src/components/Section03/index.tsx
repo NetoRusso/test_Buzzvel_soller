@@ -26,17 +26,17 @@ const Section03 = () => {
         <ScrollAnimation animateIn='animate__slideInLeft' duration={1} delay={300} animateOnce={true}>
         <div className={Style.section03__texts__box2}>
           <div className={Style.section03__texts__box2__box1}>
-            <h4 className={Style.section03__texts__box2__box1__title}>
+            <h3 className={Style.section03__texts__box2__box1__title}>
               Erat sit
-            </h4>
+            </h3>
             <p className={Style.section03__texts__box2__box1__text}>
               Id quis lectus pharetra, ultricies integer montes, amet, gravida consectetur. Nunc convallis fringilla nisl magna sagittis.
             </p>
           </div>
           <div className={Style.section03__texts__box2__box2}>
-            <h4 className={Style.section03__texts__box2__box2__title}>
+            <h3 className={Style.section03__texts__box2__box2__title}>
               Ullamcorper arcu
-            </h4>
+            </h3>
             <p className={Style.section03__texts__box2__box2__text}>
               Ipsum at id hendrerit amet faucibus commodo quam nullam. Lectus auctor habitant duis dictum.
             </p>
@@ -46,17 +46,17 @@ const Section03 = () => {
         <ScrollAnimation animateIn='animate__slideInRight' duration={1} delay={300} animateOnce={true}>
         <div className={Style.section03__texts__box3}>
           <div className={Style.section03__texts__box3__box1}>
-            <h4 className={Style.section03__texts__box3__box1__title}>
+            <h3 className={Style.section03__texts__box3__box1__title}>
               Et pellentesque
-            </h4>
+            </h3>
             <p className={Style.section03__texts__box3__box1__text}>
               Mi vitae, massa eu molestie massa euismod volutpat condimentum. Blandit molestie ullamcorper hendrerit purus lorem vulputate.
             </p>
           </div>
           <div className={Style.section03__texts__box3__box2}>
-            <h4 className={Style.section03__texts__box3__box2__title}>
+            <h3 className={Style.section03__texts__box3__box2__title}>
               Amet egestas
-            </h4>
+            </h3>
             <p className={Style.section03__texts__box3__box2__text}>
               Elementum, libero, lacus, vel ullamcorper at velit id. Malesuada velit et, ullamcorper malesuada amet, felis.
             </p>
