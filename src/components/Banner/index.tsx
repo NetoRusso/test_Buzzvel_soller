@@ -26,7 +26,7 @@ const Banner = () => {
             “Viverra viverra nibh enim et aliquam, enim. Tempor, sit mus viverra orci dui consequat turpis scelerisque faucibus.”
           </p>
           <div className={Style.banner__left__coments__card}>
-            <Image src={userPic} alt="user" className={Style.banner__left__coments__card__img} />
+            <Image src={userPic} alt="user" className={Style.banner__left__coments__card__img}/>
             <div className={Style.banner__left__coments__card__user}>
               <span className={Style.banner__left__coments__card__user__name}>
                 Rwanda Melflor

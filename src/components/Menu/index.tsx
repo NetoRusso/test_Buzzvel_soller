@@ -1,6 +1,6 @@
 'use client';
 
-import Button01 from '@/components/Button01';
+import Button01 from '../Button01';
 import Style from './Menu.module.scss';
 
 
