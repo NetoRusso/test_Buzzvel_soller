@@ -4,6 +4,34 @@
 ![image](https://img.shields.io/badge/next%20js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white) ![image](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white) ![image](https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white) ![image](https://img.shields.io/badge/Jest-C21325?style=for-the-badge&logo=jest&logoColor=white) ![image](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
 
 ---
+## project startup:
+
+clone the project:
+
+```
+git clone git@github.com:NetoRusso/test_Buzzvel_soller.git
+```
+
+access the project in the folder:
+
+```
+cd test_Buzzvel_soller
+```
+start the project under development
+```
+npm install
+
+npm run dev
+```
+
+To run the tests:
+
+```
+npm run test
+```
+
+
+---
 
 ## Test Instructions
 
@@ -148,3 +176,8 @@ Rigorous testing was conducted to ensure optimal integration, performance, and o
 - **Jest / babel: ![image](https://img.shields.io/badge/Jest-C21325?style=for-the-badge&logo=jest&logoColor=white) ![image](https://img.shields.io/badge/Babel-F9DC3E?style=for-the-badge&logo=babel&logoColor=white)**
 
 ![jest](https://github.com/user-attachments/assets/4669aa12-898b-4900-9800-fb6d93af94b5) 
+
+
+---
+
+
