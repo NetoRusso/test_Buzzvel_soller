@@ -178,6 +178,14 @@ Rigorous testing was conducted to ensure optimal integration, performance, and o
 ![jest](https://github.com/user-attachments/assets/4669aa12-898b-4900-9800-fb6d93af94b5) 
 
 
+
+### Deploy ![image](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
+
+- The project was deployed from the static page (SSR) on the Vercel platform, you can check it at [website](https://test-buzzvel-soller.vercel.app/).
 ---
 
+## Author
 
+- [NetoRusso](https://www.github.com/NetoRusso) 
+- [Portfólio](https://netorusso.onrender.com/) 
+- [Linkedin](https://www.linkedin.com/in/neto-russo/)
