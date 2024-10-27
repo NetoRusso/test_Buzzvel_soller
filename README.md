@@ -1,41 +1,96 @@
-# Soller - Your power of the sun - <a href="https://test-buzzvel-soller.vercel.app/" target="_blank">Access</a>
+# Soller - Your power of the sun - [Access](https://test-buzzvel-soller.vercel.app/)
 ## [Buzzvel](https://buzzvel.com/) 2024 Dev Team Test Version 3.0
 
 ![image](https://img.shields.io/badge/next%20js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white) ![image](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white) ![image](https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white) ![image](https://img.shields.io/badge/Jest-C21325?style=for-the-badge&logo=jest&logoColor=white) ![image](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
 
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app)
+---
 
-## Getting Started
+## Test Instructions
 
-First, run the development server:
+### Technology Options:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+**HTML5, CSS3, and JavaScript:**
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- You can choose a pure web development approach using HTML5, CSS3, and
+vanilla JavaScript.
+- Ensure that animations, responsiveness, and performance optimization are
+implemented effectively.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+**React:**
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- Build a Single Page Application (SPA) using React.
+- Focus on component reusability and SEO optimization (e.g., using
+react-helmet for meta tags).
 
-## Learn More
+**Next.js:**
 
-To learn more about Next.js, take a look at the following resources:
+- Utilize server-side rendering (SSR) or static site generation (SSG).
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- Ensure that your implementation improves performance and SEO with built-in
+Next.js features.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### Must-Have Features:
 
-## Deploy on Vercel
+**Design Implementation:**
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- Translate the Figma design into an actual user interface.
+- Ensure the design is fully responsive and looks good on all screen sizes.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+**Animations:**
+
+- Add CSS3 animations, or use libraries like GSAP or Framer Motion.
+- Focus on animations such as text reveal or fade-in effects to enhance the user
+experience without overwhelming it.
+
+**SEO Optimization:**
+
+- Implement proper SEO techniques, such as meta tags, semantic HTML, and
+optimized loading times.
+
+**Performance:**
+
+- The final output should be lightweight and have fast loading times. Use lazy
+loading and other performance techniques where necessary.
+
+
+### Evaluation Criteria:
+
+You will be assessed on the following aspects:
+
+**Design & UX:**
+
+- Adherence to the Figma design and delivering a visually appealing and
+user-friendly interface.
+- Smooth, well-integrated animations that enhance the experience.
+
+**Technical Implementation:**
+
+- Effective use of React, Next.js, or HTML5, CSS3, and JavaScript.
+- Proper componentization (if using React or Next.js) and SEO optimization.
+- Seamless integration of animations and smooth transitions.
+
+**Performance & SEO:**
+
+- Ensure fast load times, efficient rendering, and SEO-friendly code.
+- Meta tags and proper semantic HTML are essential.
+
+
+**Attention to Detail:**
+
+- A comprehensive approach to technical and design details will be critical.
+- Ensure that all aspects of the test have been addressed before submission.
+
+### Submission Guidelines
+
+- Create a GitHub repository and commit your code there.
+- Share the repository link with us once it is completed.
+- A README is required. If we don’t have a README, your test will be
+ignored.
+- You can upload a video or provide a URL showing the project's progress.
+Please share it with a public link.
+
+- ...
+
+---
+
+## Development and application ![vscode](https://img.shields.io/badge/VSCode-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white)
